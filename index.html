@@ -4,20 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>DockDev, development agency</title>
-
-
     <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Slabo+27px|Yesteryear'>
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
-
     <link rel="stylesheet" href="css/style.css">
-
-
 </head>
 
 <body>
 <div class="title">
     <h3>Get your project started with</h3>
-    <h1>DockDev</h1>
+    <h1 class="area">DockDev<a href="mailto:yann@dockdev.com"><img class="svg" src="img/mail.svg" /></a></h1>
     <div class="wrapper">
         <div class="cards">
 
@@ -25,7 +20,6 @@
                 <div class="card__inner [ js-expander ]">
                     <span>Fullstack web<br/>Development</span>
                     <br />
-                    <span> &nbsp;</span>
                 </div>
                 <div class="card__expander">
                     <i class="fa fa-close [ js-collapser ]"></i>
@@ -33,7 +27,7 @@
                     <table style="width:100%;margin-top:20px">
                         <tr>
                             <td style="width:25%">
-                                <h4>Back-End</h4>
+                                <h3>Back-End</h3>
                                 <div class="grid">
                                     <div class="grid-column">
                                         <div class="grid-item grid-item--light">
@@ -66,7 +60,7 @@
                                 </div>
                             </td>
                             <td style="width:25%">
-                                <h4>Front-End</h4>
+                                <h3>Front-End</h3>
                                 <div class="grid-column">
                                     <div class="grid-item grid-item--light">
                                         <img class="svg" src="img/angular.svg" />
@@ -97,7 +91,7 @@
                                 </div>
                             </td>
                             <td style="width:25%; vertical-align:top">
-                                <h4>Dev Ops</h4>
+                                <h3>Dev Ops</h3>
                                 <div class="grid-column">
                                     <div class="grid-item grid-item--light">
                                         <img class="svg" src="img/nginx.svg" />
@@ -129,7 +123,7 @@
                                 </div>
                             </td>
                             <td class="last" style="width:25%; vertical-align:top">
-                                <h4>Analytics & SEO</h4>
+                                <h3>Analytics & SEO</h3>
                                 <div class="grid-column">
                                     <div class="grid-item grid-item--light">
                                         <img class="svg" src="img/firebase.svg" />
@@ -158,46 +152,95 @@
                     <!--<h3>Base Rates</h3>-->
                 </div>
             </div>
-            <div class="under-construction card [ is-collapsed ] ">
-                <div class="card__inner">
+            <div class=" card [ is-collapsed ] ">
+                <div class="card__inner [ js-expander ]">
                     <span>Project management</span>
                     <br />
-                    <span style="font-size:.4em;">Under construction</span>
                 </div>
-                <!--<div class="card__expander">-->
-                    <!--<i class="fa fa-close [ js-collapser ]"></i>-->
-                    <!--<h3>Expertise</h3>-->
-                    <!--<h3>Tools</h3>-->
-                    <!--<h3>Base Rates</h3>-->
-                <!--</div>-->
-            </div>
+                <div class="card__expander">
+                    <i class="fa fa-close [ js-collapser ]"></i>
 
-            <div class=" under-construction card [ is-collapsed ] ">
-                <div class="card__inner ">
-                    <span>Digital nomadism</span>
-                    <br />
-                    <span style="font-size:.4em;">Under construction</span>
+                    <table style="width:100%;margin-top:20px">
+                        <tr>
+                            <td style="width:66%">
+                                <h3>Expertise</h3>
+                                <ul>
+                                    <li><h5 class="grid-item__title">For teams up to 6 developers</h5></li>
+                                    <li><h5 class="grid-item__title">Management/Training/Code Review</h5></li>
+
+                                    <li><h5 class="grid-item__title">Product Ownership (PSPO Level 1)</h5></li>
+                                    <li><h5 class="grid-item__title">Outsourced teams OK</h5></li>
+                                    <li><h5 class="grid-item__title">EN/FR spoken</h5></li>
+                                </ul>
+
+                                <div class="grid">
+
+                                </div>
+                            </td>
+                            <td class="last" style="width:33%">
+                                <h3>Tools</h3>
+                                <div class="grid-column">
+                                    <div class="grid-item grid-item--light">
+                                        <img class="svg" src="img/jira.svg" />
+                                        <h2 class="grid-item__title">Jira</h2>
+                                    </div>
+                                    <div class="grid-item grid-item--light">
+                                        <img class="svg" src="img/asana.svg" />
+                                        <h2 class="grid-item__title">Asana</h2>
+                                    </div>
+                                    <div class="grid-item grid-item--light">
+                                        <img class="svg" src="img/github.svg" />
+                                        <h2 class="grid-item__title">GitHub</h2>
+                                    </div>
+                                </div>
+                                <div class="grid-column">
+                                    <div class="grid-item grid-item--light">
+                                        <img class="svg" src="img/git.svg" />
+                                        <h2 class="grid-item__title">Gerrit</h2>
+                                    </div>
+                                    <div class="grid-item grid-item--light">
+                                        <img class="svg" src="img/git.svg" />
+                                        <h2 class="grid-item__title">Git flow</h2>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
-                <!--<div class="card__expander">-->
-                    <!--<i class="fa fa-close [ js-collapser ]"></i>-->
-                    <!--<h3>Philosophy</h3>-->
-                    <!--<h3>Consulting</h3>-->
-                    <!--<h3>Base Rates</h3>-->
-                <!--</div>-->
+            </div>
+            <div class="card [ is-collapsed ] ">
+                <div class="card__inner [ js-expander ]">
+                    <span>NoCode / LowCode</span>
+                    <br />
+                </div>
+                <div class="card__expander">
+                    <i class="fa fa-close [ js-collapser ]"></i>
+                    <table style="width:100%;margin-top:20px">
+                        <tr>
+                            <td class="last"  style="width:50%">
+                                <ul>
+                                    <li><h5 class="grid-item__title">NoCode and/or LowCode consultancy</h5></li>
+                                    <li><h5 class="grid-item__title">NoCode to LowCode transitioning</h5></li>
+                                    <li> <h5 class="grid-item__title">NoCode Tools training</h5></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
 
     </div>
 </div>
-
+<a href="https://e-resident.gov.ee">
+    <div style="position:fixed;z-index:5;bottom:5px;right:20px">
+        <h5><img style="display: block;margin-bottom:3px" src="img/logo.svg" />Dockdev is proud to be run by Digital Nomads,<br /> under the Estonian E-residency program</h5>
+    </div>
+</a>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.4.2/pixi.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/react/0.13.2/react.min.js'></script>
 <script  src="js/index.js"></script>
-
-
-
-
 </body>
 
 </html>

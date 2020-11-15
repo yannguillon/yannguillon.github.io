@@ -32,27 +32,45 @@ body {
   text-align: center;
   width: 100%;
 }
-.title h1 {
+h1 {
   position: relative;
   color: #FFFFFF;
   font-weight: 600;
-  font-size: 60px;
+  font-size: 40px;
   padding: 0;
   margin: 0;
   line-height: 1;
 }
-.title h1 span {
+ h1 span {
   font-weight: 600;
   font-size: 60px;
   padding: 0;
   margin: 0;
   line-height: 1;
 }
-.title h3 {
+h3 {
   font-weight: 200;
   font-size: 20px;
+
+  line-height: 1;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+}
+
+h4 {
+  text-align: left;
+  font-weight: 200;
+  font-size: 18px;
   padding: 0;
   margin: 0;
+  line-height: 1;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+}
+
+h5 {
+  text-align: left;
+  font-size: 12px;
   line-height: 1;
   color: #FFFFFF;
   letter-spacing: 2px;
@@ -62,13 +80,6 @@ canvas {
   -webkit-transform: translateZ(1px);
   transform: translateZ(1px);
 }
-
-
-
-
-
-
-
 
 * {
   box-sizing: border-box;
@@ -201,6 +212,16 @@ td.last {
   border-right: 0;
 }
 
+
+h1 .svg {
+  height: 21px;
+  margin-left: 10px;
+}
+
+h1 .svg path {
+  fill:white;
+}
+
 .grid-item > .svg {
   height: 22px;
 }
@@ -308,3 +329,34 @@ td.last {
     width: calc(200% + 30px);
   }
 }
+
+.area {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  animation: blur .75s ease-out ;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+    0px 0px 5px #fff,
+    0px 0px 10px #fff,
+    0px 0px 10px #fff,
+    0px 0px 10px #fff,
+    0px 0px 25px #fff,
+    0px 0px 25px #fff,
+    0px 0px 25px #7B96B8,
+    0px 0px 75px #7B96B8,
+    0px 10px 50px #7B96B8,
+    0px 10px 50px #7B96B8,
+    0px 10px 50px #7B96B8,
+    0px 10px 50px #7B96B8,
+    0px -10px 50px #7B96B8,
+    0px -10px 50px #7B96B8;
+  }
+}
+
+
+
+
