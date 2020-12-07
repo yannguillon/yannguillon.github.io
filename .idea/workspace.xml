@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="383ff9d3-18c3-4e59-ad9c-9fa6ed326489" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
       <workItem from="1535168802131" duration="431000" />
       <workItem from="1535175038015" duration="107000" />
       <workItem from="1605455120631" duration="4930000" />
-      <workItem from="1607332534103" duration="451000" />
+      <workItem from="1607332534103" duration="2028000" />
     </task>
     <servers />
   </component>
@@ -75,6 +76,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="444" y="149" width="467" height="446" key="#Web_Browsers" timestamp="1607338205140">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="444" y="149" width="467" height="446" key="#Web_Browsers/0.0.1366.768@0.0.1366.768" timestamp="1607338205140" />
     <state x="392" y="167" width="572" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607332650236">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
